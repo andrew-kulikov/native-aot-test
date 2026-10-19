@@ -1,0 +1,11 @@
+<Directives>
+    <Application>
+        <Assembly Name="ConsoleApp">
+            <Type Name="MyDto, ConsoleApp" Dynamic="Required All" />
+            <Type Name="MyDto2, ConsoleApp" Dynamic="Required All" />
+            <Type Name="MyGenericDto`1, ConsoleApp" Dynamic="Required All" />
+            <Type Name="MyDto3, ConsoleApp" Dynamic="Required All" />
+            <Type Name="System.Collections.ObjectModel.ReadOnlyCollection`1[[System.Int32, System.Runtime]], System.Runtime" Dynamic="Required All" />
+        </Assembly>
+    </Application>
+</Directives>
